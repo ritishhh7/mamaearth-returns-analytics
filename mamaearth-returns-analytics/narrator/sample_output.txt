@@ -1,0 +1,8 @@
+Situation
+After removing duplicate submissions, the cleaned order dataset represents ₹97,358.30 in revenue, compared with ₹99,860.20 in the raw order records. The cleaned analysis shows a 44.4% return rate for cash on delivery (COD), compared with 14.7% for card and 18.9% for UPI orders.
+
+Complication
+COD is the clearest operational risk: returns reach 54.5% for Tier-2 cities, the highest-risk segment in the analysis. The raw-to-cleaned revenue difference is ₹2,501.90; an independent check attributes that amount to five duplicate order rows, rather than to missing-value imputation. The monthly trend also needs careful reading: January appears to lead at ₹29,582.10, but that figure is inflated by two unusually large quantity orders.
+
+Resolution
+Prioritize a review of COD order confirmation, delivery and return handling in Tier-2 cities, and track changes against the 54.5% segment baseline. Add a duplicate-submission control and reconcile order IDs before revenue is used for financial reporting. For planning, use the outlier-corrected trend: 2026-03 is the true peak month at ₹20,318.90. Treat these findings as signals for operational investigation, not proof that payment method alone causes returns.
